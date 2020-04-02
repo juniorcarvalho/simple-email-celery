@@ -5,7 +5,7 @@ We use docker to run a redis instance
 
 # Start
 1. Clone project:
-`git clone `
+`git clone https://github.com/juniorcarvalho/simple-email-celery.git`
 
 2. Create a virtualenv:
 `python -m venv .venv`
