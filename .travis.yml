@@ -1,16 +1,8 @@
 language: python
 python:
   - "3.7.4"
-env:
-  - SECRET_KEY="vg$ita%40wm=q1h4sr2jf+zjzyi*dt!*j-@8(b0b(4#d(0#a67"
-  - DEBUG=False
-  - EMAIL_HOST='smtp.gmail.com'
-  - EMAIL_USE_TLS=True
-  - EMAIL_PORT=587
-  - EMAIL_HOST_USER='test@test.com'
-  - EMAIL_HOST_PASSWORD='test'
-  - CELERY_URL='redis://localhost:6379'
 install:
+  - cp contrib/env-sample .env
   - pip install -q -r requirements-test.txt
 script:
   - pytest -s -vv

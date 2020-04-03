@@ -1,0 +1,9 @@
+SECRET_KEY='^9i)ef3v-#3xx=-5^2qmfk9+usss+2urne)na@n4%uj-m+_oj%'
+DEBUG=True
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_USE_TLS=False
+EMAIL_PORT=25
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+CELERY_URL=
