@@ -1,4 +1,4 @@
-# simple_email_celery
+# simple-email-celery
 A simple api for sending email using Django, Django Rest Framework and Celery.
 
 We use docker to run a redis instance
