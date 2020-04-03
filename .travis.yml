@@ -1,7 +1,7 @@
 language: python
 python:
   - "3.7.4"
-global:
+env:
   - SECRET_KEY="vg$ita%40wm=q1h4sr2jf+zjzyi*dt!*j-@8(b0b(4#d(0#a67"
   - DEBUG=False
 install:
