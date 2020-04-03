@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/apm/l/vim-mode.svg" alt="APM">
 [![Build Status](https://travis-ci.org/juniorcarvalho/simple-email-celery.svg?branch=master)](https://travis-ci.org/juniorcarvalho/simple-email-celery)
 
 # simple-email-celery
