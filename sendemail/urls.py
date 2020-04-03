@@ -16,5 +16,6 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
+    path('', include('sendemail.core.api.urls')),
     path('api/', include('sendemail.core.api.urls')),
 ]
