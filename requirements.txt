@@ -1,4 +1,4 @@
-Django==3.0.14
+Django==3.1.12
 djangorestframework==3.11.0
 python-decouple==3.3
 celery[redis]==4.4.2
